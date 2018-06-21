@@ -3,4 +3,4 @@ project(Graph C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(Graph Graph.c Graph.h)
+add_executable(Graph main.c Graph.c Vertex.c Edge.c C-List/List.c C-List/Node.c)
